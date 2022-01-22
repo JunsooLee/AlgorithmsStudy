@@ -19,5 +19,3 @@ for idx in range(N):
         winner = idx + 1
 
 print(winner)
-
-
