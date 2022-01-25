@@ -17,4 +17,4 @@
 
 ### 문제 소스
 
-AITECH_2nd_algorithm
+_From AITECH_2nd_algorithm_
