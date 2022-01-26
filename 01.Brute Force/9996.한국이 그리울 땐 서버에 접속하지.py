@@ -1,4 +1,5 @@
-"""N = int(input())
+"""
+N = int(input())
 pattern = list(input())
 asterisk = pattern.index('*')
 
@@ -20,7 +21,8 @@ for idx in range(N):
                 flag = False
                 break
 
-    print('DA' if flag else 'NE')"""
+    print('DA' if flag else 'NE')
+"""
 
 import re
 
