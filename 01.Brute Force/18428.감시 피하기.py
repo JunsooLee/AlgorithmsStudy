@@ -18,7 +18,7 @@ def can_hide(n, arr, teachers):
             if arr[nr][nc] == 'O':
                 break
 
-        #하
+        # 하
         nr, nc = r, c
         while nr < n-1:
             nr += 1
@@ -27,7 +27,7 @@ def can_hide(n, arr, teachers):
             if arr[nr][nc] == 'O':
                 break
 
-        #좌
+        # 좌
         nr, nc = r, c
         while nc > 0:
             nc -= 1
@@ -36,7 +36,7 @@ def can_hide(n, arr, teachers):
             if arr[nr][nc] == 'O':
                 break
 
-        #우
+        # 우
         nr, nc = r, c
         while nc < n-1:
             nc += 1
